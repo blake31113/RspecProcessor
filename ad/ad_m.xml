@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rspec xmlns="http://www.protogeni.net/resources/rspec/0.1"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.protogeni.net/resources/rspec/0.1 http://www.protogeni.net/resources/rspec/0.1/ad.xsd"
+       type="advertisement"
+       generated="2009-07-21T19:19:06Z" valid_until="2009-07-21T19:19:06Z" >
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack01"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack01"
+		sliver_type="null" >
+    <node_type 
+      type_name="host"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01:eth0"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01:eth1"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack02"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack02" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02:eth1"/>
+  </node>
+      <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack01-vm1"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack01-vm1" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01-vm1:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01-vm1:eth1"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack01-vm2"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack01-vm2" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01-vm2:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack01-vm2:eth1"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack02-vm1"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack02-vm1" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02-vm1:tapefc9bf02-db"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02-vm1:eth1"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenStack02-vm2"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenStack02-vm2" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02-vm2:tapfd4472d6-b3"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+OpenStack02-vm2:eth1"/>
+  </node>
+        <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="RYU_Controller01"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+RYU_Controller01" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v_of"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+RYU_Controller01:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+RYU_Controller01:eth1"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="RYU_Controller02"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+RYU_Controller02" 
+		sliver_type="null" >
+    <node_type 
+      type_name="host_v_of"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+RYU_Controller02:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+RYU_Controller02:eth1"/>
+  </node>
+     <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenflowVSwitch01"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenflowVSwitch01" 
+		sliver_type="null" >
+    <node_type 
+      type_name="switch_v_of"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth1"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth2"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth3"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth4"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth5"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth6"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth7"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth8"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth9"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth10"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth11"/>
+  </node>
+  <node component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+cm"
+        component_name="OpenflowVSwitch02"
+        component_uuid="urn:publicid:IDN+emulab.geni.emulab.net+node+OpenflowVSwitch02" 
+		sliver_type="null" >
+    <node_type 
+      type_name="switch_v_of"
+      type_slots="1"
+    />
+    <available>true</available>
+    <exclusive>true</exclusive>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth0"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth1"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth2"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth3"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth4"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth5"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth6"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth7"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth8"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth9"/>
+	<interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth10"/>
+    <interface component_id="urn:publicid:IDN+emulab.geni.emulab.net+interface+switch1:eth11"/>
+  </node>
+  <link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-OpenflowVSwitch01:eth0-OpenStack01-vm1:eth0" component_uuid="link-OpenflowVSwitch01:eth0-OpenStack01-vm1:eth0" >
+	<interface_ref component_node_uuid="OpenflowVSwitch01" 	component_interface_id="OpenflowVSwitch01:eth0"/> 
+	<interface_ref component_node_uuid="OpenStack01-vm1" 				component_interface_id="OpenStack01-vm1:eth0"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+<link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-OpenflowVSwitch01:eth2-OpenStack01-vm1:eth0" component_uuid="link-OpenflowVSwitch01:eth2-OpenStack01-vm1:eth0" >
+	<interface_ref component_node_uuid="OpenflowVSwitch01" 	component_interface_id="OpenflowVSwitch01:eth2"/> 
+	<interface_ref component_node_uuid="OpenStack01-vm2" 				component_interface_id="OpenStack01-vm2:eth0"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+<link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-OpenflowVSwitch02:eth0-OpenStack02-vm1:eth0" component_uuid="link-OpenflowVSwitch02:eth0-OpenStack02-vm1:eth0" >
+	<interface_ref component_node_uuid="OpenflowVSwitch02" 	component_interface_id="OpenflowVSwitch02:eth0"/> 
+	<interface_ref component_node_uuid="OpenStack02-vm1" 				component_interface_id="OpenStack02-vm1:tapefc9bf02-db"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+<link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-OpenflowVSwitch02:eth2-OpenStack02-vm2:eth0" component_uuid="link-OpenflowVSwitch02:eth2-OpenStack02-vm2:eth0" >
+	<interface_ref component_node_uuid="OpenflowVSwitch02" 	component_interface_id="OpenflowVSwitch02:eth2"/> 
+	<interface_ref component_node_uuid="OpenStack02-vm2" 				component_interface_id="OpenStack02-vm2:tapfd4472d6-b3"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+<link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-RYU_Controller01-OpenflowVSwitch01" component_uuid="link-RYU_Controller01-OpenflowVSwitch01" >
+	<interface_ref component_node_uuid="RYU_Controller01" 	component_interface_id="RYU_Controller01:eth0"/> 
+	<interface_ref component_node_uuid="OpenflowVSwitch01" 		component_interface_id="OpenflowVSwitch01:eth1"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+<link component_manager_uuid="urn:publicid:IDN+emulab.geni.emulab.net+authority+sa" component_name="link-RYU_Controller02-OpenflowVSwitch02" component_uuid="link-RYU_Controller02-OpenflowVSwitch02" >
+	<interface_ref component_node_uuid="RYU_Controller02" 	component_interface_id="RYU_Controller02:eth0"/> 
+	<interface_ref component_node_uuid="OpenflowVSwitch02" 		component_interface_id="OpenflowVSwitch02:eth1"/> 
+	<bandwidth>100000</bandwidth> 
+	<latency>0</latency> 
+	<packet_loss>0</packet_loss> 
+	<link_type type_name="ethernet" /> 
+</link>
+</rspec>

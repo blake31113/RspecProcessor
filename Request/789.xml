@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rspec type="request" generated_by="Topology_gene_test" generated="Tue May 13 2014 14:06:51 GMT+0800 (台北標準時間)" xsi:schemaLocation="http://www.geni.net/resources/rspec/3 http://www.geni.net/resources/rspec/3/request.xsd" xmlns:flack="http://www.protogeni.net/resources/rspec/ext/flack/1" xmlns:client="http://www.protogeni.net/resources/rspec/ext/client/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.geni.net/resources/rspec/3">
+  <node client_id="host1" exclusive="false">
+    <sliver_type name="123" />
+    <interface client_id="host1:eth0" />
+    <interface client_id="host1:eth1" />
+  </node>
+  <node client_id="host_of3" exclusive="false">
+    <sliver_type name="456" />
+    <interface client_id="host_of3:eth2" />
+    <interface client_id="host_of3:eth3" />
+  </node>
+</rspec>

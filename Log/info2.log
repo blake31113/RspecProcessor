@@ -1,0 +1,10 @@
+D|OpenStack01|57|98 
+D|OpenStack02|7|3  
+D|OpenStack01-vm1|43|51 
+G|OpenStack01-vm2|69|99 
+G|OpenStack01-vm1|4|28 
+D|OpenStack02-vm1|56|8 
+H|RYU_Controller02|127.0.0.1|1 
+D|OpenStack01-vm2|32|74 
+H|RYU_Controller01|127.0.0.1|3 
+G|OpenStack02-vm2|7|41 
